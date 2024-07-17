@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSETICE - Associação dos servidores da ETICE</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo_etice_verdee.ico">
+    <link rel="stylesheet" href="./css/estilo_main.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="logo"><img src="./img/logo_assetice.png" id="logo_assetice" alt="logoetice"></div>
+        <ul id="navbar">
+            <li><a href="#logo">Início</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="ASSETICE">
+        <div class="text-associacao">
+            <h2>ASSOCIAÇÃO DOS SERVIDORES DA ETICE</h2>
+            <h3>CNPJ: 06.750.293/0001-00</h3>
+        </div>
+    </header>
+
+    <div id="login">
+        <div class="login-img">
+            <img src="./img/foto_login.png" alt="são joão ETICE" class="foto-login">
+        </div>
+        <div class="login-form">
+            <h2 class="login-text">Login</h2>
+            <ul>
+                <li><input class="input-form" placeholder="Usuário"></input></li>
+                <li>
+                    <input class="input-form" id="senha" type="password" placeholder="Senha">
+                    <a onclick="Hide()"><img src="./img/olho-aberto.png" alt="mostrar senha" id="mostrar-senha"></a>
+                    <a onclick="Show()"><img src="./img/olho-fechado.png" alt="ocultar senha" id="ocultar-senha"></a>
+                    </input>
+                </li>
+            </ul>
+            <a id="btn-entrar" class="entrar">Entrar</a>
+        </div>
+    </div>
+
+    <div id="eventos">
+        <h2>EVENTOS</h2>
+        <img src="./img/evento_exemplo.png" alt="eventos ETICE" class="evento-exemplo">
+        <img src="./img/evento_exemplo.png" alt="eventos ETICE" class="evento-exemplo">
+    </div>
+
+    <div id="servicos">
+        <h2>SERVIÇOS</h2>
+        <div class="servico_logos">
+            <div class="divodonto">
+                <a target=”_blank” href="./page_uniodonto.html">
+                    <img src="./img/uniodonto_logo.png" alt="uniodonto" class="uniodonto" href="#">
+                </a>
+            </div>
+            <div class="divunimed">
+                <a target=”_blank” href="./page_unimed.html">
+                    <img src="./img/unimed_logo.png" alt="unimed" class="unimed">
+                </a>
+            </div>
+            <div class="divvivo">
+                <a target=”_blank” href="./page_vivo.html">
+                    <img src="./img/vivo_logo.png" alt="vivo" class="vivo" href="#">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contato">
+        <h2>CONTATO</h2>
+        <div class="texto-contato">
+            <h3 id="texto-contato1">Entre em contato conosco, estamos a sua disposição.</h3>
+            <h3 id="texto-contato2">Sinta-se livre para mandar dúvidas, críticas e sugestões.</h3>
+        </div>
+        <div class="contatos">
+            <a class="contato-celular"><img src="./img/celular_icon.png" alt="celular de contato" class="celular">(85)
+                9173-2805</a>
+            <a class="contato-email"><img src="./img/email_icon.png" alt="email de contato"
+                    class="email">assetice.exemplo@gmail.com</a>
+        </div>
+    </div>
+    <div class="setinha">
+        <a id="voltartopo" href="#nav"><img src="./img/back_to_top_arrow.png" alt="voltar ao topo"
+                class="topo-seta"></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/javascript.js"></script>
+</body>
+
+</html>
